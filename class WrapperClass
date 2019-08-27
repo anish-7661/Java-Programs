@@ -1,0 +1,7 @@
+class WrapperClass
+{
+static void main(String args[])
+{
+}
+	
+}
