@@ -1,21 +1,25 @@
-class Inheritance1
+class  Super 
 {
-	void demo()
+	void sample()
 	{
-		 System.out.println(" class1");
+		System.out.println("In super ");
 	}
-  
 }
+class Sub extends Super
+{
+	void sample()
+	{
+		System.out.println("In sub ");
+	}
+}
+
 class Inheritance
 {
-	void demo()
+	public static void main(String args[])
 	{
-		System.out.println(" class 2");
-	}
-	public static void main()
-	{
-		Inheritance1 obj=new Inheritance();
-		obj.demo();
-
+		Super s = new Sub();
+		s.sample();
+		s = new Super();
+		s.sample();
 	}
 }
