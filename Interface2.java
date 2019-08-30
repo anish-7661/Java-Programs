@@ -1,14 +1,13 @@
 interface Printable
 {
-	void print();
-}
+	void prin
 
 interface Showable extends Printable
 {
 	void show();
 }
 
-class interface2 implements Showable
+class Interface2 implements Showable
 {
 	public void print()
 	{
@@ -20,7 +19,7 @@ class interface2 implements Showable
 	}
 	public static void main(String args[])
 	{
-		interface2 obj = new interface2();
+		Interface2 obj = new Interface2();
 		obj.print();
 		obj.show();
 	}
